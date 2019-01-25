@@ -1,0 +1,16 @@
+{
+  "extends": ["tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "member-access": false,
+    "jsx-no-lambda": false,
+    "semicolon": false,
+    "jsx-boolean-value": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  }
+}
